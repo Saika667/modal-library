@@ -1,5 +1,5 @@
 {
-  "name": "modal-library",
+  "name": "projet14-modal-library",
   "type": "module",
   "version": "1.0.0",
   "main": "./dist/index.js",
