@@ -1,7 +1,7 @@
 import React from 'react'
 import './Modal.css'
 
-const Modal = ({ open, onClose, children, backgroundColor = "white", borderRadius = "10px", maxWidth = "500px", buttonColor = "black", classButton, classOverlay, classModal }) => {
+const Modal = ({ open, onClose, children, backgroundColor = "white", borderRadius = "10px", maxWidth = "500px", buttonColor = "black", classButton = "", classOverlay = "", classModal = "" }) => {
     if (!open) return null
 
     return (
