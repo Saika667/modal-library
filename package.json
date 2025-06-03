@@ -1,7 +1,7 @@
 {
   "name": "projet14-modal-library",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "exports": {
