@@ -279,8 +279,8 @@ function oe() {
   return W || (W = 1, process.env.NODE_ENV === "production" ? p.exports = te() : p.exports = ne()), p.exports;
 }
 var k = oe();
-const se = ({ open: u, onClose: i, children: f, backgroundColor: d = "white", borderRadius: a = "10px", maxWidth: s = "500px", buttonColor: m = "black", classButton: E = "", classOverlay: x = "", classModal: O = "" }) => u ? /* @__PURE__ */ k.jsx("div", { className: `modal-overlay ${x}`, onClick: () => i(), style: { "--background-color": d, "--border-radius": a, "--max-width": s }, children: /* @__PURE__ */ k.jsxs("div", { className: `modal ${O}`, onClick: (_) => _.stopPropagation(), children: [
-  /* @__PURE__ */ k.jsx("button", { className: `modal-close ${E}`, onClick: () => i(), style: { "--button-color": m }, children: "×" }),
+const se = ({ open: u, onClose: i, children: f, backgroundColor: d = "white", borderRadius: a = "10px", maxWidth: s = "500px", buttonColor: m = "black", classButton: E = "", classOverlay: x = "", classModal: O = "" }) => u ? /* @__PURE__ */ k.jsx("div", { className: `modal-overlay ${x}`, onClick: () => i, style: { "--background-color": d, "--border-radius": a, "--max-width": s }, children: /* @__PURE__ */ k.jsxs("div", { className: `modal ${O}`, onClick: (_) => _.stopPropagation(), children: [
+  /* @__PURE__ */ k.jsx("button", { className: `modal-close ${E}`, onClick: () => i, style: { "--button-color": m }, children: "×" }),
   /* @__PURE__ */ k.jsx("div", { children: f })
 ] }) }) : null;
 export {

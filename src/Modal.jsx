@@ -5,9 +5,9 @@ const Modal = ({ open, onClose, children, backgroundColor = "white", borderRadiu
     if (!open) return null
 
     return (
-        <div className={ `modal-overlay ${ classOverlay }` } onClick={ () => onClose() } style={{ '--background-color': backgroundColor, '--border-radius': borderRadius, '--max-width': maxWidth }}>
+        <div className={ `modal-overlay ${ classOverlay }` } onClick={ () => onClose } style={{ '--background-color': backgroundColor, '--border-radius': borderRadius, '--max-width': maxWidth }}>
             <div className={ `modal ${ classModal }` } onClick={ e => e.stopPropagation() }>
-                <button className={ `modal-close ${classButton}`} onClick={ () => onClose() } style={{ '--button-color': buttonColor }}>×</button>
+                <button className={ `modal-close ${classButton}`} onClick={ () => onClose } style={{ '--button-color': buttonColor }}>×</button>
                 <div>{ children }</div>
             </div>
         </div>
