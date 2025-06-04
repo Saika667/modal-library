@@ -5,9 +5,9 @@ Une bibliothèque React moderne et flexible pour créer des modales personnalisa
 ## Installation
 
 ```bash
-npm install modal-library
+npm install projet14-modal-library
 # ou
-yarn add modal-library
+yarn add projet14-modal-library
 ```
 
 ## Prérequis
@@ -56,6 +56,9 @@ function App() {
 | borderRadius    | string    | Rayon de bordure de la modale                      | "10px"     |
 | maxWidth        | string    | Largeur maximale de la modale                      | "500px"    |
 | buttonColor     | string    | Couleur du bouton de fermeture                     | "black"    |
+| classButton     | string    | Classe sur le bouton de fermeture                  | ""         |
+| classOverlay    | string    | Classe sur l'overlay                               | ""         |
+| classModal      | string    | Classe sur la modale                               | ""         |
 
 ## Licence
 
